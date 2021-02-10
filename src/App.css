@@ -1,0 +1,72 @@
+/* CSS HEX
+--rich-black-fogra-29: #011627ff;
+--baby-powder: #fdfffcff;
+--tenne-tawny: #cc5803ff;
+--chocolate-web: #e2711dff;
+--yellow-orange-color-wheel: #ff9505ff;
+--honey-yellow: #ffb627ff;
+--maximum-yellow-red: #ffc971ff;
+--rose-madder: #e71d36ff;
+--orange-peel: #ff9f1cff; */
+
+/* $tenne-tawny: rgba(204, 88, 3, 1);
+$chocolate-web: rgba(226, 113, 29, 1);
+$yellow-orange-color-wheel: rgba(255, 149, 5, 1);
+$honey-yellow: rgba(255, 182, 39, 1);
+$maximum-yellow-red: rgba(255, 201, 113, 1); */
+
+body {
+  font-family: 'Indie Flower', cursive;
+  color: #011627ff;
+  margin: 0;
+  background-image: url('https://www.transparenttextures.com/patterns/triangles.png');
+  background-color: #ffc971ff;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+
+.rose {
+  background-color: #e2711dff;
+  padding-left: 20px;
+  color: #fdfffcff;
+  border: 2px solid black;
+}
+
+.fetch-button {
+  height: 500px;
+  width: 500px;
+  font-size: 5rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #e71d36ff;
+  color: #fdfffcff;
+  font-family: 'Indie Flower', cursive;
+  outline: 0;
+  box-shadow: 5px 10px #2e2e2e;
+}
+
+.fetch-button:hover {
+  background-color: rgb(175, 7, 27);
+}
+
+.activities {
+  margin-top: 20px;
+  height: 120px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #011627ff;
+  font-size: 2rem;
+}
+
+footer {
+  margin-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
